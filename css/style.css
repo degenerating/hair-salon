@@ -1,0 +1,327 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+img {
+  max-width: 800px;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* -----------header--------------- */
+
+header nav img {
+  float: left;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+
+header nav a {
+  float: right;
+  color: black;
+  text-decoration: none;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
+header nav ul {
+  list-style: none;
+  max-width: 1000px;
+  display: block;
+  /* margin: 0 auto; */
+  /* border: 2px solid red; */
+}
+
+header nav li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header nav li span {
+  position: relative;
+  top: 7px;
+
+}
+
+
+
+
+/* -----------------bigframebackground-------------- */
+
+.bgframe {
+  background: url("pinkblue.jpg");
+  background-size: cover;
+  height: 1000px;
+  padding-top: 150px;
+  padding-left: 150px;
+  color: white;
+}
+
+
+
+.bgframe h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 100px;
+  margin-bottom: 10px;
+}
+
+.bga1 {
+  margin-top: 50px;
+}
+
+.blbtn {
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 15px;
+}
+
+.bbox {
+  margin-top: 100px;
+  background: black;
+  padding: 15px;
+  width: 300px;
+  line-height: 45px;
+}
+
+.bbox .per {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.bbox a {
+  color: black;
+  background: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+
+/* -----------------information-------------- */
+
+
+.inf {
+  /* border: 2px solid red; */
+  width: 80%;
+  margin: 60px auto;
+}
+
+.inf1, .inf2, .inf3 {
+  float: left;
+  width: 33.33%;
+  /* border: 2px solid blue; */
+  padding: 25px;
+}
+
+/* 61x60, 67x68, 70x62 */
+
+.inf1 img, .inf2 img, .inf3 img {
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+}
+
+.inf1 h5, .inf2 h5, .inf3 h5 {
+  text-align: center;
+}
+
+.inf1 p, .inf2 p, .inf3 p {
+  text-align: center;
+}
+
+
+
+/* ---------momentum-------------- */
+
+.moment {
+  background: #f3f4f6;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-bottom: 50px;
+}
+
+iframe {
+  float: right;
+  padding: 50px 50px 0 50px;
+}
+
+.moment h3 {
+  font-size: 40px;
+}
+
+.moment p {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+
+/* ----------------staff--------------- */
+
+.staff1, .staff2, .staff3 {
+  width: 33.33%;
+  float: left;
+  padding: 0 20px;
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+.staff img {
+  width: 100%;
+  height: 80%;
+}
+
+.staff div {
+  /* border: 2px solid blue; */
+  width: 50%;
+  background: black;
+  color: white;
+  margin: 0 auto;
+}
+
+
+
+
+/* -----------offer------------ */
+
+.offer {
+  clear: both;
+  background-color: #f0eeef;
+  background-image: url("blondebowl.PNG");
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: contain;
+  padding: 75px 0 0 50px;
+}
+
+.off1 h4 {
+  font-size: 38px;
+  font-weight: 400;
+}
+
+span.per {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+
+/* ----------lookbook----------- */
+
+.lb {
+  width: 100%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.lookbook {
+  height: 600px;
+}
+
+.lb1, .lb2, .lb3 {
+  width: 33.33%;
+  float: left;
+  /* border: 1px solid red; */
+  height: 600px;
+}
+
+.pinkblue {
+  background: url("pinkblue.jpg");
+  height: 33.33%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.lightbrown {
+  background: url("lightbrown.jpg");
+  height: 66.66%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.red {
+  background: url("red.PNG");
+  height: 66.66%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.plus {
+  background: url("plus.PNG");
+  height: 33.33%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.eyesopen {
+  background: url("eyesopen.jpg");
+  height: 33.33%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.eyesshut {
+  background: url("eyesshut.jpg");
+  height: 66.66%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lookbook div {
+  border: 7.5px solid white;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
